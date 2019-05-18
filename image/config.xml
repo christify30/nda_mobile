@@ -1,3 +1,10 @@
 <allow-navigation href="*" />
 <allow-intent href="*" />
 <access origin="*" />
+<name>NDA</name>
+     <platform name="android">
+              <icon src="./android-icon-36x36.png" density="ldpi" />
+              <icon src="./android-icon-36x36.png" density="mdpi" />
+              <icon src="./android-icon-36x36.png" density="hdpi" />
+              <icon src="./android-icon-36x36.png" density="xhdpi" />
+     </platform>
