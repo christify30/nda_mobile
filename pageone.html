@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ndapagetwo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./index.css" type="text/css">
+        <script src="./jquerry.js"></script>
+        
+    </head>
+    <body>
+        <section class="pageone">
+            <h1 class="pageoneheader">
+                WELCOME
+            </h1>
+           <div class="text">
+               <p class="text">Ensure that your device is connected to the internet then click on start</p>
+               
+           </div>
+           <div class="button">
+               <button class="buttonp" onclick="relocate()">
+                   START
+               </button>
+           </div>
+        </section>
+       <script >
+       $(document).ready(function(){
+         setTimeout(()=>{
+            $(".button").slideDown(2000);
+         },1000)
+         setTimeout(()=>{
+            $(".pageone").fadeIn(500);
+            $(".pageoneheader").fadeIn(3000);
+         },500)
+       });
+       relocate=()=>{
+          window.location.href="pagetwo.html"
+       }
+</script>
+    </body>
+</html>

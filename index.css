@@ -1,0 +1,93 @@
+.splash{
+    color: green;
+    text-align: center;
+    font-weight: 300;
+}
+section{
+    text-align: center;
+    margin: 0px;
+}
+.pageone{
+    background:
+    linear-gradient(to top, rgba(255,0,0,0), rgb(5, 5, 5)),
+     url("./image/showcase.jpg");
+    background-color: #0000;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    
+   margin-top:-30px;
+    padding: 0px;
+    display: none;
+}
+.text{
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 1.1em;
+}
+
+.pageoneheader{
+    color: green;
+    font-family: sans-serif;
+    box-shadow: 0px 1px 2px 0px;
+    display: none;
+    padding-top: 20px;
+}
+.buttonp{
+    
+    background: green;
+    color:#fff;
+    font-size: 1.3em;
+    border: 0px;
+    width: 50%;
+    padding: 5%;
+    border-radius: 5%;
+    box-shadow: 0px 1px 2px 0px;
+    transition: background 1s, color 1s;
+    
+}
+.button{
+    display: none;
+}
+button:hover{
+   background: yellow;
+    color: green;
+   
+}
+.text{
+    margin-top: 30%;
+}
+iframe{
+    width:100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.restart{
+    z-index: 1000;
+    position: absolute;
+    top: 450px;
+   left: 150px;
+    opacity: 0.6;
+    background: red;
+    border:0px;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.spinner{
+    width: 100px;
+}
